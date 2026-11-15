@@ -3,3 +3,6 @@ name = "media-asset-optimizer"
 version = "0.1.0"
 authors = [{ name="Geno Joshua" }]
 requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
